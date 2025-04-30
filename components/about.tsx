@@ -19,6 +19,25 @@ export default function About() {
       <p className="text-lg md:text-xl text-[#c8b17f] max-w-2xl">
         Descubre el arte de perfumar con estilo.
       </p>
+
+      <div className="flex flex-row justify-center gap-4 pt-6">
+        <a
+          href="https://wa.me/2615161952" /* Reemplaza con tu número */
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-6 py-2 bg-[#c8b17f] hover:bg-[#b39e64] text-[#0a0a14] font-semibold rounded-lg transition"
+        >
+          WhatsApp
+        </a>
+        <a
+          href="https://www.instagram.com/mystere.fragancias/" /* Reemplaza con tu @usuario */
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-6 py-2 bg-[#c8b17f] hover:bg-[#b39e64] text-[#0a0a14] font-semibold rounded-lg transition"
+        >
+          Instagram
+        </a>
+      </div>
     </section>
   );
 }
